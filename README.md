@@ -1,4 +1,1 @@
-===================
-| BanckingProject |
-
-===================
+Banking Project
