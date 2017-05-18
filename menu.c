@@ -26,7 +26,7 @@ int main()
     printf("Choisisez une action -> ");
     scanf("%d", &choixMenu);
 
-    puts("");
+    printf("\n");
 
     // Switch principal
     switch (choixMenu)
@@ -41,14 +41,14 @@ int main()
       printf("==      3/ Retour             ==\n");
       printf("================================\n");
 
-      puts("");
+      printf("\n");
 
       // Demande à l'utilisateur de choisir une action 
       printf("Choisisez une action -> ");
       // Stock la variable pour le choix de l'utilisateur
       scanf("%d", &choixCompte);
 
-      puts("");
+      printf("\n");
 
         // Switch choix du Compte
         switch (choixCompte)
@@ -84,12 +84,12 @@ int main()
         printf("==     3/ Retour              ==\n");
         printf("================================\n");
 
-        puts("");
+        printf("\n");
 
         printf("Quel compte? -> ");
         scanf("%d", &choixCompte);
 
-        puts("");
+        printf("\n");
 
         // Switch choix du compte
         switch (choixCompte)
@@ -119,12 +119,12 @@ int main()
         printf("==    4/ Retour               ==\n");
         printf("================================\n");
 
-        puts("");
+        printf("\n");
 
         printf("Choisisez une action -> ");
         scanf("%d", &choixAdmin);
 
-        puts("");
+        printf("\n");
 
         // Switch choix de l'action administrateur
         switch (choixAdmin)
